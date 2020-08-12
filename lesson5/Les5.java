@@ -66,7 +66,6 @@ public class Les5 {
 
         System.out.println("Поток a1 после " + Arrays.toString(a1));
         System.out.println("Поток a2 после " + Arrays.toString(a2));
-
         System.arraycopy(a1, 0, a, 0, h);
         System.arraycopy(a2, 0, a, h, h);
     }
